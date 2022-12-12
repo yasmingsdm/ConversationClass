@@ -25,13 +25,23 @@
         <label for="aboutme">Yourself</label>
         <input type="radio" id="books" name="topic" value="books">
         <label for="books">Books</label>
+        <button type="submit" onclick="submit()" class="submit" id="submit">Start</button>
     </section>
     <section class="questions">
-        <button type="button" id="last"><</button>
-        <div class="question">
-            <p>teste</p>
+        <div class="buttons">
+        <button type="button" id="q1">1</button>
+        <button type="button" id="q2">2</button>
+        <button type="button" id="q3">3</button>
+        <button type="button" id="q4">4</button>
+        <button type="button" id="q5">5</button>
         </div>
-        <button type="button" id="next">></button>
+        <div class="question">
+            <p id="question1"></p>
+            <p id="question2"></p>
+            <p id="question3"></p>
+            <p id="question4"></p>
+            <p id="question5"></p>
+        </div>
     </section>
     <footer>Project by <a href="https://github.com/yasmingsdm">Yasmin Dal Medico</a></footer>
     <script src="./script.js"></script>
