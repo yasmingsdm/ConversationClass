@@ -14,7 +14,7 @@ What I've practiced/learned:
 - Able and disable buttons (JavaScript);
 - Change the style (JavaScript);
 - innerHTML(JavaScript);
-- If/Else (JavaScript);
+- If/ Else (JavaScript);
 
 
 You can check the project ready [here](https://yasmingsdm.github.io/ConversationClass/)
