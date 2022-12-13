@@ -1,4 +1,3 @@
-
 let topic = ''
 
 document.getElementById('q1').disabled = true
@@ -19,7 +18,7 @@ if (document.getElementById('food').checked == true){
 } else if (document.getElementById('books').checked == true){
     topic = 'books'
 } else {
-    alert('You must choose a topic')
+    alert('Elige un tema')
 }
 
 //Show question 1 and able other buttons from questions:
@@ -80,28 +79,28 @@ document.getElementById('q5').onclick = () =>{
 
 //Topic questions:
 if (topic == 'food'){
-    document.getElementById('question1').innerHTML = "Are there any foods that you wouldn't eat as a child that you eat now?"
-    document.getElementById('question2').innerHTML = "Do you ever skip breakfast? If so, how often and why?"
-    document.getElementById('question3').innerHTML = "What restaurant in this city do you recommend? Why is it a good place?"
-    document.getElementById('question4').innerHTML = "Why is pizza popular?"
-    document.getElementById('question5').innerHTML = "Are there any foods that bring back special memories for you? What are they?"
+    document.getElementById('question1').innerHTML = "¿Hay algún alimento que no comía de niño y que comes ahora?"
+    document.getElementById('question2').innerHTML = "¿Sueles saltarte el desayuno? ¿Con qué frecuencia y por qué?"
+    document.getElementById('question3').innerHTML = "¿Qué restaurante recomiendas? ¿Porqué?"
+    document.getElementById('question4').innerHTML = "¿Por qué la pizza es tan popular?"
+    document.getElementById('question5').innerHTML = "¿Hay algún alimento que te recuerde un momento especial? ¿Cuál?"
 } else if (topic == 'travel'){
-    document.getElementById('question1').innerHTML = "Are you planning on going anywhere for your next vacation? If so, where?"
-    document.getElementById('question2').innerHTML = "Have you ever been in a difficult situation while traveling?"
-    document.getElementById('question3').innerHTML = "How many countries have you been to?"
-    document.getElementById('question4').innerHTML = "What country do you most want to visit? Why?"
-    document.getElementById('question5').innerHTML = "When you are on a long car journey do you play games to occupy your time?"
+    document.getElementById('question1').innerHTML = "¿Cuáles son tus planes para las próximas vacaciones?"
+    document.getElementById('question2').innerHTML = "¿Alguna vez has vivido una situación incómoda en un viaje?"
+    document.getElementById('question3').innerHTML = "¿En cuántos países has estado?"
+    document.getElementById('question4').innerHTML = "¿Que pais te gustaria visitar? ¿Porque?"
+    document.getElementById('question5').innerHTML = "Cuando viajas en coche, ¿qué hace para ocupar su tiempo?"
 } else if (topic == 'aboutme'){
-    document.getElementById('question1').innerHTML = "Tell me about a favorite event of your childhood."
-    document.getElementById('question2').innerHTML = "What do you do on Sundays?"
-    document.getElementById('question3').innerHTML = "Which sports do you like?"
-    document.getElementById('question4').innerHTML = "What could you do as a child that you can't do now?"
-    document.getElementById('question5').innerHTML = "What languages do you speak?"
+    document.getElementById('question1').innerHTML = "¿Cuál era tu evento favorito cuando eras niño?"
+    document.getElementById('question2').innerHTML = "¿Que sueles hacer los domingos?"
+    document.getElementById('question3').innerHTML = "¿Practicas algún deporte? ¿Cuál?"
+    document.getElementById('question4').innerHTML = "¿Hay algo que hacías de niño que no puedas hacer ahora? ¿Qué?"
+    document.getElementById('question5').innerHTML = "¿Cuántos idiomas hablas?"
 } else if (topic == 'books'){
-    document.getElementById('question1').innerHTML = "What is the longest book you have ever read?"
-    document.getElementById('question2').innerHTML = "How many hours do you spend reading in a week?"
-    document.getElementById('question3').innerHTML = "Is there a book that you have read more than once? How many times did you read it?"
-    document.getElementById('question4').innerHTML = "What factors are important to you when choosing a book to read?"
-    document.getElementById('question5').innerHTML = "What was the last book that you read?"
+    document.getElementById('question1').innerHTML = "¿Cuál es el libro más largo que has leído?"
+    document.getElementById('question2').innerHTML = "¿Cuánto tiempo dedicas a leer en una semana?"
+    document.getElementById('question3').innerHTML = "¿Has leído el mismo libro más de una vez? ¿Cuál?"
+    document.getElementById('question4').innerHTML = "¿Qué consideras a la hora de elegir un libro para leer?"
+    document.getElementById('question5').innerHTML = "¿Cuál fue el último libro que leíste?"
 }
 }
