@@ -1,4 +1,4 @@
-# Conversation Class - NOT READY YET
+# Conversation Class
 
 This project goal's was to create a webpage to use during Conversation Classes.
 
