@@ -89,7 +89,7 @@ if (topic == 'food'){
     document.getElementById('question2').innerHTML = "¿Alguna vez has vivido una situación incómoda en un viaje?"
     document.getElementById('question3').innerHTML = "¿En cuántos países has estado?"
     document.getElementById('question4').innerHTML = "¿Que pais te gustaria visitar? ¿Porque?"
-    document.getElementById('question5').innerHTML = "Cuando viajas en coche, ¿qué hace para ocupar su tiempo?"
+    document.getElementById('question5').innerHTML = "Cuando viajas en coche, ¿qué hace para ocupar tu tiempo?"
 } else if (topic == 'aboutme'){
     document.getElementById('question1').innerHTML = "¿Cuál era tu evento favorito cuando eras niño?"
     document.getElementById('question2').innerHTML = "¿Que sueles hacer los domingos?"
